@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --font-navegação: 'Inter', sans-serif;
+    --font-texto: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-image: linear-gradient(320deg, #ff7b008f, #ffffff);
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px 90px;
+}
+
+header h1{
+    font: 400 1.5em var(--font-navegação);
+    color: #ff7b00;
+    letter-spacing: 0.05em;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+nav a{
+    font: 400 1em var(--font-navegação);
+    color: black;
+    letter-spacing: 0.05em;
+}
+
+#cont{
+    border: 3px solid #FFE600;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: #803E00;
+    transition: 0.3s all;
+}
+
+#cont:hover{
+    border: 3px solid transparent;
+    transition: 0.5s all;
+    color: black;
+    background-color: #FFE600;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 50px;
+}
+
+#texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    width: 40%;
+}
+
+#texto h2{
+    font: 400 2em var(--font-texto);
+    color: black;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+#texto p{
+    font: 400 1em var(--font-texto);
+    color: black;
+    text-align: justify;
+    letter-spacing: 0.1em;
+}
+
+#texto button{
+    width: 50%;
+    background-color: #ff7b00da;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: black;
+    font: 400 0.8em var(--font-texto);
+    letter-spacing: 0.3em;
+}
+
+#texto button:hover{
+    cursor: pointer;
+    background-color: #ff7b00;
+    transition: 0.5s all;
+}
+
+#imagem{
+    height: 400px;
+    width: 400px;
+}
