@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media (max-width: 450px){
+    /*Event form*/
+    #event-description{
+        flex-direction: column;
+        height: auto;
+    }
+    
+    #disclaimer{padding: 2em;}
+    #disclaimer h2{margin-bottom: .5em;}
+    #subscription-form{
+        max-width: 70%;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    /*Benefits Section*/
+    .benefits{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
+    }
+}
